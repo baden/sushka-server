@@ -45,7 +45,10 @@ header {
     // padding: .75rem 0;
     padding: 0;
     background-color: #7952b3;
-
+    // background-image: url('/img/CryoVit-BLUE-transparent.png');
+    // background-image: url('./lib/CryoVit-BLUE-transparent.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
 
     position: relative;
     display: flex;
@@ -54,10 +57,13 @@ header {
     justify-content: space-between;
     // padding-top: .5rem;
     // padding-bottom: .5rem;
+    background-position-x: 40%;
+    height: 42px;
 
     @media (min-width: 768px) {
         flex-wrap: nowrap;
         justify-content: flex-start;
+        background-position-x: left;
     }
 
     nav {
